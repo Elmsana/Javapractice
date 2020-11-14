@@ -9,6 +9,7 @@ public class ReverseString {
 //        System.out.println(re.reverse());
          String re = new StringBuilder(str).reverse().toString();
         System.out.println(re);
+        System.out.println("arm");
     }
 
 }
