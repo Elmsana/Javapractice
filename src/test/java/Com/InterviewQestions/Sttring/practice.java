@@ -1,21 +1,29 @@
 package Com.InterviewQestions.Sttring;
+public class practice {
 
+//public String myVar="instance variable";
 
-      class practice {
-          public static void main(String[] args) {
-              int number[] = {12, 13, 42, 32, 15, 156, 23, 51, 12};
-              int max = findMax(number);
-          }
-
-              public int findMax ( int[] numbers){
-          }
-
-              int max = 0;
-
-
-              return max;
-
-          }
-
+public void myMethod(){
+        // local variable
+        String myVar = "Inside Method";
+        System.out.println(myVar);
         }
+public static void main(String args[]){
+        // Creating object
+        practice obj = new practice();
+
+        /* We are calling the method, that changes the
+         * value of myVar. We are displaying myVar again after
+         * the method call, to demonstrate that the local
+         * variable scope is limited to the method itself.
+         */
+        System.out.println("Calling Method");
+        obj.myMethod();
+       // System.out.println(obj.myVar);
+        }
+        }
+
+
+
+
 

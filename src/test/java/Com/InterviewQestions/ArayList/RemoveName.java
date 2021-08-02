@@ -9,6 +9,7 @@ public class RemoveName {
         ArrayList<String> names = new ArrayList<>(Arrays.asList("Ahmed", "John", "Eric", "Ahmed"));
 names.removeAll((Arrays.asList("Ahmed")));
        // names.removeAll((Arrays.asList("Ahmed")));
+
         System.out.println(names);
     }
 

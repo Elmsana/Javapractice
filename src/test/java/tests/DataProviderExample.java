@@ -17,7 +17,6 @@ public class DataProviderExample {
         driver.get(url);
         Assert.assertTrue(driver.getTitle().contains(title));
         driver.quit();
-
     }
 
     @DataProvider(name = "testData")

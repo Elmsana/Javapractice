@@ -38,6 +38,6 @@ public class FindElement {
                 System.out.println(LinkwithText);
                 System.out.println(LinkwithoutText);
                 System.out.println(listofLinks.size());
-
+                
     }
 }
