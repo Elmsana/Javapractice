@@ -1,7 +1,11 @@
 package Com.InterviewQestions.Numbers;
 
 public class ReverseNegativeNum {
-    public static int reverseNum(int  num) {
+
+
+ //   public static int reverseNum(int  num) {
+   public static void main(String[] args) {
+      int num = -9;
 
         String str = new StringBuilder(""+num).reverse().toString();
 
@@ -11,7 +15,8 @@ public class ReverseNegativeNum {
 
         }
 
-        return Integer.valueOf(str);
+      //  return Integer.valueOf(str);
+       System.out.println(Integer.valueOf(str));
 
     }
 }

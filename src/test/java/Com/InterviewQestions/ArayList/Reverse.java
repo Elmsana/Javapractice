@@ -13,10 +13,18 @@ public class Reverse {
         String reverse="";
 
         List<Character> arrList = new ArrayList<>();
-        for (char c: input.toCharArray()) { arrList.add(c); } Collections.reverse(arrList);Object[] arr2 = arrList.toArray();
-        for(int i = 0; i <arr2.length; i++) { reverse += arr2[i];}
+        for (char c: input.toCharArray())
+        {
+            arrList.add(c);
+        }
+        Collections.reverse(arrList);
+        Object[] arr2 = arrList.toArray();
+        for(int i = 0; i <arr2.length; i++)
+        {
+            reverse += arr2[i];
+        }
         System.out.println(reverse);
-       // return reverse;
+
          }
 }
 
