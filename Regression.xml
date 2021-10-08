@@ -2,12 +2,12 @@
 <suite name ="Regression">
 <test name = "Calendar events test">
     <classes >
-        <class name="tests.CheckboxPractice"></class>
+        <class name="SeleniumTestCode.CheckboxPractice"></class>
     </classes>
 </test>
     <test name="zoom">
         <classes>
-            <class name="tests.DataProviderExample"></class>
+            <class name="SeleniumTestCode.DataProviderExample"></class>
         </classes>
     </test>
 </suite>
