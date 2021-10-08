@@ -1,15 +1,16 @@
 package Com.InterviewQestions.Maap;
 
-import java.util.Map;
-import java.util.SortedSet;
-import java.util.TreeSet;
+import java.lang.reflect.Array;
+import java.util.*;
 
 public class MinValue {
-    public  static  int  minValue( Map<String,Integer> map  ) {
+    public static void main(String[] args){
+      List<Integer> names = new ArrayList<>(Arrays.asList(1,2,5,7,8));
+        names.contains(7);
+        System.out.println(names);
 
-        SortedSet<Integer> sm = new TreeSet<>(map.values());
-
-        return sm.first( );
+        }
 
     }
-}
+
+

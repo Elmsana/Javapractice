@@ -1,47 +1,52 @@
 package Com.InterviewQestions.Sttring;
 
+import java.util.Arrays;
+import java.util.Collections;
+
 public class FindUniq {
+    //  Solution 1:
 
-
-    public static String Unique(String str) {
-//        String[] arr = str.split("");
-//        String uniq = "";
-//        for (int i = 0; i < arr.length; i++)
-//        {
-//            int count = 0;
-//            for (int j = 0; j < arr.length; j++)
-//            {
-//                if (arr[j].contains(arr[i]))
-//                    count++;
-//            }
-//                    if (count == 1)
-//                    {
-//                        uniq += arr[i];
-//                    }
-//                }
-//                return uniq;
+    public static String unique1(String str) {
 
         String[] arr = str.split("");
-        String uniq = "";
-        for ( int i =0; i < arr.length; i++){
-            int count =0;
 
-            for(int j =0; j < str.length();j++) {
+        String unique1 = "";
 
+        for (int j = 0; j < arr.length; j++) {
 
-                if (arr[j].contains(arr[i]))
-                    count++;
+            int num = 0;
+
+            for (int i = 0; i < arr.length; i++) {
+
+                if (arr[i].equals(arr[j]))
+
+                    num++;
+
             }
-        if(count ==1)
-        {
-            uniq+=arr[i];
+
+            if (num == 1)
+
+                unique1 += arr[j];
 
         }
 
+        return unique1;
+
     }
-return uniq;
 
+
+    // Solution 2:
+
+    public static String Unique2(String str) {
+
+        String result = "";
+
+        for (String each : str.split(""))
+
+            result += ((Collections.frequency(Arrays.asList(str.split("")), each)) == 1) ? each : "";
+
+
+        return result;
+
+    }
 }
-}
-
-

@@ -6,20 +6,12 @@ public class SwapNumbers {
 
     //  Solution 1:
     public static void main(String[] args) {
-
-
         int a = 10;
         int b = 20;
-
         a = a * b;
-
         b = a / b;
-
         a = a / b;
-
-
         // Solution 2:
-
         int a1 = 10;
         int b1 = 20;
 
@@ -28,7 +20,6 @@ public class SwapNumbers {
         b1 = a1 ^ b1;
 
         a1 = a1 ^ b1;
-
         int a2 = 10;
         int b2 = 20;
         int c2= a2;

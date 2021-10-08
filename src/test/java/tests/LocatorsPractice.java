@@ -30,8 +30,5 @@ System.out.println("Actual text "+ actualText);
 
 Thread.sleep(2000);
 driver.close();
-
-
-
     }
 }

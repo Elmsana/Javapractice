@@ -13,10 +13,8 @@ public class Test2 {
         WebDriverManager.chromedriver().setup();
         WebDriver driver = new ChromeDriver();
         driver.get("https://practice-cybertekschool.herokuapp.com/");
-
         List<WebElement> elementLists = driver.findElements(By.tagName("a"));
         System.out.println("Amount of links: "+elementLists.size());
-
         WebElement link = driver.findElement(By.linkText("Autocomplete"));
         link.click();
         driver.findElement(By.id("myCountry")).sendKeys("Eritrea");

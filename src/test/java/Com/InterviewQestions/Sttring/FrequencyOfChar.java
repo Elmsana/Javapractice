@@ -1,6 +1,10 @@
 package Com.InterviewQestions.Sttring;
 
 public class FrequencyOfChar {
+    public static void main(String[] args) {
+        String FrOfCharNu = "ammnnnuuuueeeeellllll";
+        System.out.println(FrequencyOfChars(FrOfCharNu));
+    }
 
     public static String FrequencyOfChars(String str) {
         String nodup = "";

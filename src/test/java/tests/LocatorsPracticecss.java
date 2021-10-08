@@ -16,12 +16,11 @@ public class LocatorsPracticecss {
 ChromeDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.get("http://practice.cybertekschool.com/registration_form");
-
-        driver.findElement(By.cssSelector("input[name='firstname']")).sendKeys("bana");
-        driver.findElement(By.cssSelector("input[name='lastname']")).sendKeys("Fessehaye");
-        driver.findElement(By.cssSelector("input[name='username']")).sendKeys("banaFessehaye");
-        driver.findElement(By.cssSelector("input[name='email']")).sendKeys("email@cybertekschool.com");
-        driver.findElement(By.cssSelector("input[name='password']")).sendKeys("jamesbond234");
+        driver.findElement(By.cssSelector("input[name='firstname']")).sendKeys("b");
+        driver.findElement(By.cssSelector("input[name='lastname']")).sendKeys("haye");
+        driver.findElement(By.cssSelector("input[name='username']")).sendKeys("anhaye");
+        driver.findElement(By.cssSelector("input[name='email']")).sendKeys("emaikschool.com");
+        driver.findElement(By.cssSelector("input[name='password']")).sendKeys("ond234");
         driver.findElement(By.cssSelector("input[name='phone']")).sendKeys("777-777-7777");
         driver.findElement(By.cssSelector("input[value='female']")).click();
         driver.findElement(By.cssSelector("input[name='birthday']")).sendKeys("05/24/1991");

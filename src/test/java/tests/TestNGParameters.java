@@ -23,6 +23,7 @@ public class TestNGParameters {
 
             Thread.sleep(20);
             driver.quit();
+
         }
     }
 }

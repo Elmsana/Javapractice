@@ -7,7 +7,6 @@ public class SortingNumAndString {
        // public static void SortLettersAndNumbersFromString(String str) {
 String str ="A1MN3U6EL987";
             String str2 = "";
-
             for(int i = 0; i < str.length(); i++) {
 
                 str2 += ""+str.charAt(i);
