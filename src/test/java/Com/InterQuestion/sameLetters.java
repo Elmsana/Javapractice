@@ -6,6 +6,7 @@ import java.util.TreeSet;
 public class sameLetters {
     public static void main(String[] args) {
         String s = "madam";
+        String b="";
         String t = "";
         for(int i = s.length()-1;i>=0;i--)
         {
